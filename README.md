@@ -1,30 +1,31 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
-
-{Provide a description for the software that you wrote to demonstrate the Erlang language.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
+This project is a console-based Basic Calculator application written in Erlang. The goal of this software is to strengthen my understanding of Erlang’s syntax by building a small but complete application.
+The calculator allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. It interacts with the user through the Erlang shell, reads input safely, validates operations, and displays results clearly.
+My purpose in writing this software was to gain hands-on experience with Erlang features such as recursion, pattern matching, guards, immutable variables, and list processing. By implementing a calculator, I was able to focus on core language concepts while practicing clean functional design and error handling.
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+-Visual Studio Code as the code editor
+-Erlang/OTP installed locally
+-Erlang shell (erl) to compile and run the program
 
-{Describe the programming language that you used and any libraries.}
+The programming language used is Erlang, a functional language designed for concurrency and reliability.
+Standard Erlang libraries were used, including:
+-io for input and output
+-lists for list processing and iteration
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+
+- [Erlang Official Documentation](https://www.erlang.org/doc/readme.html)
+- [Learn You Some Erlang for Great Good!](https://learnyousomeerlang.com/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+- Add exception handling using try/catch
+- Allow input without requiring a trailing period (.)
+- Extend the calculator with additional operations and history tracking
